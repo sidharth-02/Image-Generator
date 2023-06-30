@@ -1,0 +1,7 @@
+POST http://localhost:3001/openai/generateimage
+Content-Type: application/json
+
+{
+    "prompt": "man on the moon",
+    "size": "small"
+}
